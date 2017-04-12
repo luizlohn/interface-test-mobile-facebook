@@ -21,12 +21,6 @@ Quando(/^clicar em Entrar$/) do
   find_element(id: "button_login").click
 end
 
-Então(/^o aplicativo deverá mostrar o onboarding se for o primeiro acesso do usuário$/) do
-  if Elements.new.is_element_present("id","skip") == true
-    find_element(id: "skip").click
-  end
-end
-
 Então(/^mostrará o feed do aplicativo$/) do
   wait { find_element(id: "mSearch") }
   until exists{text_exact("Cândice")}do

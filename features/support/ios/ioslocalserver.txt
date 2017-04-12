@@ -10,5 +10,5 @@ sessionDescription = 'Automation teste describ'
 'platformVersion'=    '10.2'
 appium_lib = { wait = 20,
       debug = false,
-      'server_url'= 'http://luiz.lohn:893ecce6-1f2a-4efa-ab7d-e7703b606f1a@api.kobiton.com/wd/hub'
+      'server_url'= 'xxxx'
       }
