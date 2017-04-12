@@ -1,0 +1,13 @@
+[caps]
+sessionName = 'Automation Name'
+sessionDescription = 'Automation teste describ'
+deviceOrientation =  'portrait'
+app =                '<APP_URL>'
+captureScreenshots = true
+deviceGroup =        'KOBITON'
+deviceName =         'iPad mini 3G (Cellular)'
+platformName =       'iOS'
+platformVersion =    '10.2'
+
+[appium_lib]
+server_url = 'http://luiz.lohn:893ecce6-1f2a-4efa-ab7d-e7703b606f1a@api.kobiton.com/wd/hub'

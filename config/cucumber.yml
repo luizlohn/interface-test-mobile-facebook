@@ -1,0 +1,6 @@
+login: -t @login --format html --out report.html --format pretty
+
+local: ORIGINAPPIUM='local'
+remote: ORIGINAPPIUM='remote'
+android: ORIGINOS='android'
+ios: ORIGINOS='ios'

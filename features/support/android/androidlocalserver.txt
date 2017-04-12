@@ -1,0 +1,11 @@
+[caps]
+platformName = 'Android'
+deviceName = 'LGK430O7AU8LOV'
+app = './features/support/app/socialbase.apk'
+appPackage = 'socialbase.staging'
+appActivity = 'socialbase.ui.activity.SplashActivity'
+newCommandTimeout = 3600
+
+[appium_lib]
+wait = 20
+debug = true

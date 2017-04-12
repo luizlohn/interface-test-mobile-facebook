@@ -1,0 +1,15 @@
+[caps]
+sessionName =        'Automation testing session'
+sessionDescription = 'Automation testing session'
+deviceOrientation =  'portrait'
+app =                'http://www.quatest.com.br/socialbase-2.8.4-99-staging-debug.apk'
+appPackage = 'socialbase.staging'
+appActivity = 'socialbase.ui.activity.SplashActivity'
+captureScreenshots = true
+deviceGroup =        'ORGANIZATION'
+udid =         '0029232975'
+platformName =     'Android'
+platformVersion =    '6.0'
+
+[appium_lib]
+server_url = 'http://luiz.lohn:893ecce6-1f2a-4efa-ab7d-e7703b606f1a@api.kobiton.com/wd/hub'
